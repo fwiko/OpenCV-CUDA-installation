@@ -122,11 +122,11 @@ Now hit _Generate_. When generation is finished we are done with CMake.
 
 Open the `OpenCV.sln` just created in the build folder.
 
-Go in "Tools>Options...", then in "Projects and Solutions > Web Projects" uncheck the last parameter. Continue if it was already unchecked, otherwise close Visual Studio and reopen `OpenCV.sln`.
+Go in "Tools>Options...", then in "Projects and Solutions > Web Projects" uncheck the second to last parameter. Continue if it was already unchecked, otherwise close Visual Studio and reopen `OpenCV.sln`.
 
 _N.B. If you are not using Visual Studio in english, this setting may be elsewhere or (from personal experience) somehow simply unfindable. If this is the case **change the language to english**. While I have no precise idea of why this setting is needed, [it actually has an impact](https://github.com/opencv/opencv/issues/19972#issuecomment-1119781901)._
 
-![devenv_TVsR0HP4yc](https://user-images.githubusercontent.com/28230243/166442847-060bb8cc-2333-4fc9-8f73-24749f233e60.png)
+![devenv_TVsR0HP4yc](https://github.com/user-attachments/assets/a8170e44-1147-43a3-8582-2038302868c4)
 
 Change the "Debug" mode to "Release".
 
